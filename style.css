@@ -1,0 +1,52 @@
+*{
+   color: white;
+    background-color: black;
+}
+nav{
+    display: flex;
+    margin-top: 3%;
+}
+h1{
+    font-size: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between; 
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+ 
+}
+a{
+    text-decoration: none;
+}
+li::marker{
+    color:transparent;
+}
+li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.rev{
+   font-size: 196px;
+
+}
+.card{
+    border: none;
+  justify-content: space-evenly;
+  padding-left: 2%;
+  background-color: black;
+}
+.card-group{
+   padding: 5%;
+    
+}
+::selection{
+    background-color: white;
+    color: black;
+}
