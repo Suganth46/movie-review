@@ -3,11 +3,11 @@
     background-color: black;
 }
 @media only screen and (max-width:720px) {
-    .navbar h1 {
-        font-size: 50px;
-  }
-   .rev{
-   font-size: 100px;
+   .navbar h1 {
+    font-size: 30px;
+    }
+    .content h1 {
+        font-size: 70px;
     }
 }
 nav{
